@@ -3,7 +3,7 @@
 1. **Contacts:**
 	* **Phone:** +375293135198
 	* **Mail:** stif@tut.by
-	* **Git:** [kistanislav] (https://github.com/KiStanislav)
+	* **Git:** [kistanislav](https://github.com/KiStanislav)
 
 1. **Summary:** 
 	
@@ -25,3 +25,7 @@
 
 	* Belarusian State University of Informatics and Radioelectronics 2009
 	* EPAMUpSkillsLab 2020
+
+1. **English:**
+
+		Elementary level A1 (work with documentation). Now I'm learning English on the site https://puzzle-english.com/ 
