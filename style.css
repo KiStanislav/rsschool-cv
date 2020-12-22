@@ -1,0 +1,21 @@
+* {
+  box-sizing: border-box;
+}
+img {
+  margin-left: 25px;
+}
+h1 {
+  text-align: center;
+  font-style: italic;
+  font-family: "Times New Roman", Times, serif;
+}
+body {
+  margin-left: auto;
+  margin-right: auto;
+  width: 1024px;
+  border: solid 1px;
+}
+ol ::marker {
+  color: rgb(125, 0, 50);
+  font-size: 26px;
+}
