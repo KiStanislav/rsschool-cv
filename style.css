@@ -1,21 +1,140 @@
-* {
-  box-sizing: border-box;
+body {
+  display: flex;
+  flex-direction: column;
+  align-content: space-around;
+  max-width: 1024px;
+  margin: 20px auto;
+  font-family: Arial, Helvetica, sans-serif;
 }
-img {
-  margin-left: 25px;
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 0 50px;
 }
 h1 {
-  text-align: center;
-  font-style: italic;
-  font-family: "Times New Roman", Times, serif;
+  font-size: 2.5em;
+  font-weight: 800;
 }
-body {
-  margin-left: auto;
-  margin-right: auto;
-  width: 1024px;
-  border: solid 1px;
+h2 {
+  letter-spacing: 0.5px;
 }
-ol ::marker {
-  color: rgb(125, 0, 50);
-  font-size: 26px;
+.gradient {
+  background: linear-gradient(to right, rgb(143, 201, 224), rgb(255, 255, 255));
+}
+.header-name {
+  display: flex;
+  flex-direction: column;
+  margin: 50px 50px;
+}
+header li {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 10px;
+  margin-left: -40px;
+  list-style-type: none;
+  font-size: 1em;
+  font-weight: 700;
+  letter-spacing: 0.3px;
+}
+.icon::before {
+  content: "";
+  display: flex;
+}
+.contacts {
+  display: flex;
+  flex-direction: row;
+}
+.header-image {
+  margin: auto;
+  box-shadow: 3px 3px 3px rgb(128, 128, 128);
+}
+hr {
+  background-color: rgb(183, 215, 252);
+  height: 1px;
+  box-shadow: 0.5px 0.5px 0.5px rgba(0, 117, 250, 0.493);
+}
+.about-top {
+  margin: 0 100px 50px;
+  font-size: 1.2em;
+}
+.about-last {
+  display: flex;
+  flex-direction: row;
+  margin: 0 100px 30px 100px;
+  font-size: 1.2em;
+}
+.left {
+  padding: 20px 100px 0 0;
+  flex: 3;
+}
+.right {
+  padding: 20px 0;
+  flex: 2;
+}
+a {
+  color: rgb(108, 151, 189);
+}
+@media (min-width: 610px) and (max-width: 768px) {
+  header {
+    flex-direction: column;
+  }
+  .header-name {
+    margin: 0 auto;
+  }
+  .header-image {
+    margin-bottom: 20px;
+  }
+  .about-top {
+    margin-bottom: 0;
+  }
+}
+@media (max-width: 609px) {
+  body {
+    margin: 5px auto;
+  }
+  h1 {
+    font-size: 1.5em;
+    margin: 10px;
+  }
+  h2 {
+    font-size: 1em;
+    margin: 10px;
+  }
+  header {
+    flex-direction: column;
+    margin: 0 auto;
+  }
+  .header-name {
+    margin: 10px 5px;
+  }
+  .contacts {
+    flex-direction: column;
+  }
+  header li {
+    margin: 0 10px;
+    font-size: 0.8em;
+  }
+  ul {
+    margin: 0 10px;
+  }
+  .about-last {
+    flex-direction: column;
+    margin: 0 10px;
+    padding: 0 10px;
+    font-size: 0.8em;
+  }
+  .about-top {
+    flex-direction: column;
+    margin: 10px;
+    padding: 0 10px;
+    font-size: 0.8em;
+  }
+  .left {
+    padding: 0 10px;
+  }
+  .right {
+    padding: 0 10px;
+  }
 }
