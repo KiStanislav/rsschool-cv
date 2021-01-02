@@ -86,8 +86,7 @@ a {
 }
 
 a:hover {
-  color: rgb(29, 93, 156);
-  font-size: 2em;
+  color: rgb(16, 94, 163);
 }
 
 @media (min-width: 610px) and (max-width: 768px) {
